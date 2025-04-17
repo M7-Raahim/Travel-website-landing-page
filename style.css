@@ -116,15 +116,19 @@
   
   .title {
     color: #14183E;
+    text-shadow: 4px 9px 8px #666;
     font-size: 70px;
     line-height: 1.1;
     margin-bottom: 20px;
-    font-weight: 700;
+    font-weight: 700; 
+  }
+  .title:first-letter{
+    font-size: 150%;
   }
   
   .description {
     color: #666;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     line-height: 1.6;
   }
   
@@ -155,7 +159,7 @@
     right: -400px;
     width: 600px;
     height: 600px;
-    background-color: #FFF7EB;
+    background-color: #f39924;
     border-radius: 50%;
     z-index: -1;
   }
